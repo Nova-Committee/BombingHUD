@@ -14,7 +14,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 import java.util.function.Supplier;
 
-@Mixin(value = HudRenderer.class, remap = false)
+@Mixin(value = HudRenderer.class)
 public abstract class MixinHudRenderer {
     @Shadow
     @Final
